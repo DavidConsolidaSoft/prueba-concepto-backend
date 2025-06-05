@@ -1,0 +1,90 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos de Python
+*.py[cod]
+__pycache__/
+*.so
+
+# Distribución / empaquetado
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Archivos de PyInstaller
+*.manifest
+*.spec
+
+# Logs y bases de datos
+*.log
+*.sqlite3
+
+# Archivos de entorno y configuración
+.env
+.env.*
+!.env.example
+
+# Archivos de IDE y editores
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de prueba y cobertura
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+
+# Archivos específicos de FastAPI
+.fastapi
+
+# Archivos de dependencias
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Archivos de mypy
+.mypy_cache/
+
+# Archivos de pytest
+pytest.ini
+
+# Archivos de Alembic (migraciones de base de datos)
+alembic/*.ini
+alembic/versions/*
+!alembic/versions/.gitkeep
+
+# Archivos temporales
+*.tmp
+*.bak
+*.swp
+*~.nib
